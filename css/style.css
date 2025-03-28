@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    color: #528580;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.section {
+    margin: 20px 0;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff6f61;
+    border: none;
+    color: ffafbd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.section-image {
+    max-width: 300px; /* Kích thước tối đa của ảnh */
+    margin-top: 10px;
+    border-radius: 10px; /* Bo góc cho ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng nhẹ */
+}
+
+#surpriseBtn {
+    margin-left: calc(50% - 50px); /* Canh giữa nút */
+    padding: 15px 30px; /* Kích thước nút */
+    font-size: 1.2em;
+    color: white;
+    background-color: transparent; /* Xóa nền mặc định */
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border: 1px solid white;
+}
