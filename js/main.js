@@ -56,7 +56,7 @@ function renderContent() {
 
     setTimeout(() => {
         surpriseBtn.style.display = 'block';
-    }, data.length * 3000);
+    }, data.length * 2000);
 }
 
 
