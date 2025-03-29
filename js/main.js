@@ -10,7 +10,7 @@ const data = [
     {
         title: "Nhưng mà vẫn là thích bạn",
         text: "Lúc bạn gởi bài post này cho tôi là tôi đã cười mũm mĩm cả ngày",
-        // image: "../img/img01.png" s
+        image: "../img/img01.png" 
     },
     {
         title: "Lúc trở lại thành phố này",
@@ -30,7 +30,7 @@ const data = [
     {
         title: "Cho tôi một cơ hội để chở bạn chậm rãi khi cần",
         text: "Cho tôi một cơ hội để ga lăng hơn với bạn, chăm sóc bạn, yêu thương bạn",
-        // image: "../img/img02.png"
+        image: "../img/img02.png"
     },
     {
         title: "Tôi thích bạn",
@@ -63,8 +63,9 @@ function renderContent() {
 renderContent();
 
 surpriseBtn.addEventListener('click', () => {
-    contentDiv.innerHTML = `<h2>Cho mình cơ hội theo đuổi bạn nha</h2>
-        <p>Đồng hành với bạn trên chặn đường sắp tới sẽ là minh chứng rõ nhất cho tình cảm của tui cho bạn</p>`;
+    contentDiv.innerHTML = `<h2>Để mình theo đuổi bạn nha</h2>
+        <p>Đồng hành với bạn trên chặn đường sắp tới sẽ là minh chứng rõ nhất cho tình cảm của tui cho bạn</p>
+        <p>Yêu nhau nha bạn ơi !</p>`;
     surpriseBtn.style.display = 'none';
     confetti(); 
 });
