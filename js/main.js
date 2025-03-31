@@ -10,7 +10,6 @@ const data = [
     {
         title: "Nhưng mà vẫn là thích bạn",
         text: "Lúc bạn gởi bài post này cho tôi là tôi đã cười mũm mĩm cả ngày",
-        image: "../img/img01.png" 
     },
     {
         title: "Lúc trở lại thành phố này",
@@ -30,7 +29,6 @@ const data = [
     {
         title: "Cho tôi một cơ hội để chở bạn chậm rãi khi cần",
         text: "Cho tôi một cơ hội để ga lăng hơn với bạn, chăm sóc bạn, yêu thương bạn",
-        image: "../img/img02.png"
     },
     {
         title: "Tôi thích bạn",
